@@ -50,6 +50,7 @@ createApp({
         },
 
         out(){
+            this.hover = !this.hover
             this.autoChange()
         },
 
