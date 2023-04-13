@@ -46,12 +46,12 @@
     height: 19%;
     object-fit: cover;
     border-radius: 10px;
+    cursor: pointer;
 }
 
 .commands{
     width: 20%;
     height: 100%;
-    position: absolute;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -59,16 +59,27 @@
     padding: 15px 0;
 }
 
-.commands #nextArrow,
-.commands #beforeArrow{
+#nextArrow,
+#beforeArrow{
     padding: 8px 10px;
     border-radius: 50%;
     background-color: rgba(255, 255, 255, 0.856);
     cursor: pointer;
+    position: absolute;
 }
 
-.commands #nextArrow:hover,
-.commands #beforeArrow:hover{
+#nextArrow{
+    left: 8%;
+    top: 91%;
+}
+
+#beforeArrow{
+    left: 8%;
+    top: 2%;
+}
+
+#nextArrow:hover,
+#beforeArrow:hover{
     background-color: white;
     color: rgb(66, 141, 253);
 }
