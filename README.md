@@ -9,8 +9,8 @@ Partendo dal markup della versione svolta in js plain, rifare lo slider ma quest
 - 3 quando il mouse va in hover sullo slider, bloccare l’autoplay e farlo riprendere quando esce.
 
 ## Steps
-- ricreo lo slider fatto in js puero, ma questa volta con Vue
-- 
-- 
-- 
-- 
+- ricreo lo slider fatto in js puro, ma questa volta con Vue
+- al click di una thumb il counter assume l'indice dell'immagine nell'array
+- grazie a set interval, l'immagine cambia automaticamente ogni 3 secondi
+- grazie all'hover gestisco il cambio automatico dell'immagine 
+
