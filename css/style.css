@@ -30,15 +30,16 @@
     width: 100%;
     height: 100%;
     border-radius: 10px;
+    box-shadow: 5px 5px 5px black;
 }
 
 .container .gallery{
     width: 20%;
     height: 100%;
-    margin-right: 10px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    margin-right: 30px;
 }
 
 .gallery img{
@@ -47,6 +48,7 @@
     object-fit: cover;
     border-radius: 10px;
     cursor: pointer;
+    box-shadow: 5px 5px 5px black;
 }
 
 .commands{
@@ -88,6 +90,6 @@
     display: none;
 }
 
-.select.special{
+.special{
     border: 4px solid white;
 }

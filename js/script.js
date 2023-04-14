@@ -29,7 +29,7 @@ createApp({
         },
 
         clickChange(index){
-            this.counter = index -1
+            this.counter = index 
         },
 
         autoChange(){
@@ -42,7 +42,6 @@ createApp({
 
         over(){
             this.hover = !this.hover
-            console.log(this.hover);
 
             if(this.hover){
                 clearInterval(this.time)
